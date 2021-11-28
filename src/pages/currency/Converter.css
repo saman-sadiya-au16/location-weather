@@ -1,0 +1,31 @@
+.currency {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.cc-title {
+    color: #000;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.input-number {
+    border: 1px solid #333;
+    border-radius: .3em;
+    padding: .25rem;
+    width: 210px;
+    justify-content: center;
+}
+
+.currency-code {
+    margin-left: .5rem;
+}
+.equals {
+    font-weight: bold;
+    font-size: 2rem;
+}

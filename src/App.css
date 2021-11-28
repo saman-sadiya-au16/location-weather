@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.Mapcontent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.Weathercontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.Imgcontent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-content: space-evenly;
+}
+
+.bottom-div{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnn {
+  height: 40px;
+  background-color: white;
+  border: 2px solid green;
+  font-size: larger;
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.bottom-div-one{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.bottom-div-two{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.exchange-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  width: 100%;
+}
